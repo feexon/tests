@@ -2,9 +2,9 @@ package test.system.velocity;
 
 import org.junit.Rule;
 import org.junit.Test;
-import test.system.support.velocity.WebServer;
+import test.system.support.web.WebServer;
 import test.system.support.velocity.Browser;
-import test.system.support.velocity.TestEnvironment;
+import test.system.support.web.TestEnvironment;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;

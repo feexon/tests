@@ -1,4 +1,4 @@
-package test.system.support.velocity;
+package test.system.support.web;
 
 import java.io.IOException;
 import java.io.InputStream;

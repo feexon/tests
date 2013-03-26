@@ -1,4 +1,4 @@
-package test.system.support.velocity;
+package test.system.support.web;
 
 import org.mortbay.jetty.Connector;
 import org.mortbay.jetty.Server;

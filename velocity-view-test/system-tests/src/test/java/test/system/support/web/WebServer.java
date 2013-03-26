@@ -1,4 +1,4 @@
-package test.system.support.velocity;
+package test.system.support.web;
 
 import org.junit.rules.TestRule;
 import org.junit.runner.Description;

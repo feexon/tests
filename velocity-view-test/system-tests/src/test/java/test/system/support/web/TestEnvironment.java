@@ -1,4 +1,4 @@
-package test.system.support.velocity;
+package test.system.support.web;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -8,8 +8,8 @@ public class TestEnvironment {
     public static final String PROPERTY_WEBAPP_DIRECTORY = "test.webapp.directory";
     public static final String PROPERTY_CONTEXT_PATH = "test.context.path";
     public static final String PROPERTY_SERVER_PORT = "test.server.port";
-    public static final TestEnvironment DEFAULT_EVN = new TestEnvironment("test.properties");
     public static final String PROPERTY_SERVER_HOST = "test.server.host";
+    public static final TestEnvironment DEFAULT_EVN = new TestEnvironment("test.properties");
     private Properties properties;
 
 
@@ -35,10 +35,10 @@ public class TestEnvironment {
     }
 
     public URL routeTo(String path) throws MalformedURLException {
-        return new URL(root(), path);
+        return new URL(webRoot(), path);
     }
 
-    private URL root() throws MalformedURLException {
+    private URL webRoot() throws MalformedURLException {
         return new URL("http", serverHost(), serverPort(), contextPath());
     }
 
