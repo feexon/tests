@@ -8,8 +8,8 @@
     <artifactId>velocity-view-test</artifactId>
     <version>1.0</version>
     <modules>
-        <module>app</module>
-        <module>system-tests</module>
+        <module>velocity-app</module>
+        <module>velocity-system-tests</module>
     </modules>
 
     <packaging>pom</packaging>

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>system-tests</artifactId>
+    <artifactId>velocity-system-tests</artifactId>
     <build>
         <testResources>
             <testResource>
@@ -20,12 +20,12 @@
     </build>
 
     <properties>
-        <test.webapp.directory>${project.parent.basedir}/app/src/main/webapp</test.webapp.directory>
+        <test.webapp.directory>${project.parent.basedir}/velocity-app/src/main/webapp</test.webapp.directory>
     </properties>
     <dependencies>
         <dependency>
             <groupId>com.feexon</groupId>
-            <artifactId>app</artifactId>
+            <artifactId>velocity-app</artifactId>
             <version>1.0</version>
             <scope>provided</scope>
         </dependency>
